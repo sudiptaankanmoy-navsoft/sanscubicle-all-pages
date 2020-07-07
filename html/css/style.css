@@ -1,0 +1,478 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;523;600;700;800&display=swap');
+/*font-family: 'Manrope', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0
+}
+p{
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    color: #666666;
+    margin: 0;
+    font-weight: 400;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666666;
+}
+.menu-sec .navbar-expand-lg {}
+.menu-sec .collapse.navbar-collapse {}
+.menu-sec .collapse.navbar-collapse .navbar-nav li:last-child {text-align: right;}
+.menu-sec .collapse.navbar-collapse .navbar-nav li {padding:0 14px;}
+.menu-sec .collapse.navbar-collapse .navbar-nav li a {padding:0px; font-family: 'Montserrat', sans-serif;}
+.menu-sec img {
+    width: 35%;
+}
+.menu-sec ul li {
+    /*margin-left: 10px;*/
+}
+.menu-sec ul li a { font-size: 16px; font-weight: 700; color: #000 !important; font-family: 'Manrope', sans-serif;}
+header {
+    box-shadow: 0 0 10px #bbbaba;
+    margin-bottom: 10px;
+}
+
+/*tabsec*/
+
+.inner-section nav {
+  width: 100%;
+}
+
+.inner-section nav ul li {border-left: 1px solid #dfdfdf; height: 113px; padding-left:0;}
+.inner-section ul li:first-child {border: none;}
+/*.inner-section nav ul li:first-child {
+    width: 25%;
+}*/
+.inner-section nav ul li a {padding:0px 10px; color: #000; font-size: 1rem; text-decoration: none; font-weight: bold; transition: all 0.2s ease; display: flex; align-items: center; height:119px;}
+.inner-section nav ul li a:hover {color: #34495E;}
+.inner-section a.active {transition:0.3s all; border-bottom:5px solid #000}
+
+/* Headings */
+
+.inner-section h1 {font-size: 5rem; color: #34495E;}
+
+/* Sections */
+
+.inner-section nav ul li a h3{}
+.inner-section nav ul li a.active h3 {}
+
+
+/*tabend*/
+
+.inner-section nav ul li h3 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+nav.navbar-fixed-top ul li a {
+    display: table;
+    width: 100%;
+    padding-top: 10px;
+}
+.inner-section nav ul li h4 {color: #00b4ff; font-size: 20px; font-weight: 600;}
+.inner-section nav ul {
+    border-bottom: 5px solid #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+.inner-section ul li:last-child a {
+    padding-right: 100px;
+}
+.Pre-Integrat img {
+    width: 100%;
+}
+.hidepm {
+    padding: 0;
+}
+.Pre-Integrat .row{
+    margin: 0;
+    padding: 0;
+}
+.Pre-Integrat .alltext-center {
+   /* justify-content: center;
+    align-items: center;*/
+}
+.Pre-Integrat h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Pre-Integrat h3 span{
+    display: table;
+    width: 100%;
+}
+.Pre-Integrat h3.pimheadtext::before {
+    content: "";
+    background-color: #ccf0ff;
+    height: 49px;
+    width: 414px;
+    position: absolute;
+    z-index: -9;
+    margin: 70px auto 0;
+    left: 0px;
+    right: 0px;
+}
+.Pre-Integrat h4 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #00b4ff;
+    padding-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.Pre-Integrat h4 span{
+    width: 100%;
+    color: #000;
+}
+.Pre-Integrat p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    line-height: 35px;
+}
+.Pre-Integrat {
+    margin-top: 50px;
+}
+.Pre-Integrat .textarea {padding: 0 20px; max-width: 80%; margin: 0 auto;}
+.Pre-Integrat h5 {
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.Pre-Integrat h5 span{
+    color: #00b4ff;
+}
+.Pre-Integrat a {
+    margin: 0 auto;
+    display: table;
+    background: rgb(4,151,211);
+    background: linear-gradient(90deg, rgba(4,151,211,1) 0%, rgba(0,179,254,1) 100%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 18px 40px;
+    margin-top: 70px;
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+.Pre-Integrat a:hover {text-decoration: none;}
+
+/* background image of the section */
+
+footer {
+    background-image: url("../images/footerbg.png");
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin-top: 50px;
+}
+footer img.logo {
+    width: 100%;
+}
+footer p {
+    color: #fff;
+    font-weight: 600;
+}
+.navbar-fixed-top {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 78px;
+  background: white;
+  z-index: 9
+}
+.Pre-Integrat h6 {
+    text-align: center;
+    font-size: 40px;
+    color: #000;
+    font-weight: 800;
+    margin-bottom: 80px;
+}
+.Pre-Integrat h6 span {
+    justify-content: center;
+}
+.Pre-Integrat h6::before {
+    content: "";
+    background-color: #ccf0ff;
+    height: 65px;
+    width: 104px;
+    position: absolute;
+    margin-top: 28px;
+    z-index: -9;
+    margin-left: -16px;
+}
+.Pre-Integrat h6.Elastic::before {
+    content: "";
+    background-color: #ccf0ff;
+    height: 51px;
+    width: 518px;
+    position: absolute;
+    z-index: -9;
+    margin: 28px auto 0;
+    left: 0px;
+    right: 0px;
+}
+.backgroundcentralizegg {
+    background-image: url(../images/images6.png);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-right: -15px;
+}
+.pimimgleft {
+    margin-left: -15px;
+}
+.pimimgleft h5 {
+    margin-left: 80px;
+    margin-top: 0;
+}
+.menu-sec {
+    padding: 0 25px;
+}
+.pimimgright {
+    margin-right: -15px;
+}
+.pimimgright h5.smwsi {
+    text-align: center;
+    margin-top: 30px;
+}
+.pimimgleft {
+    position: relative;
+}
+.pimimgleft .lypuc {
+    position: absolute;
+    bottom: 125px;
+}
+.pimimgright h5.irtp {
+    text-align: center;
+}
+.pimimgleft h5.scad {
+    margin-top: 30px;
+}
+.pimimgright h5.ffer {
+    text-align: center;
+}
+.efsimgleft {
+    margin-left: -15px;
+}
+.efsimgleft h5.isr {
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.efsimgright {
+    margin-right: -15px;
+}
+.efsimgright h5.ecb {
+    position: absolute;
+    bottom: 32px;
+    margin-left: 139px;
+}
+.efsimgleft h5.rpcf {
+    margin-left: 80px;
+    position: absolute;
+    bottom: 92px;
+}
+.efsimgright h5.emsi {
+    position: absolute;
+    bottom: 80px;
+    margin-left: 132px;
+}
+.efsimgleft h5.sdwfs {
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.hclimgleft {
+    margin-left: -15px;
+}
+.hclimgleft h5.aeaat {
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.hclimgright h5.ecb {
+    text-align: center;
+}
+.hclimgleft h5.hcf {
+    position: absolute;
+    bottom: 142px;
+    right: 90px;
+}
+.hclimgright {
+    margin-right: -15px;
+}
+.hclimgright h5.teecs {
+    text-align: center;
+}
+.Pre-Integrat h6.iowmheatext::before {
+    content: "";
+    background-color: #ccf0ff;
+    height: 51px;
+    width: 518px;
+    position: absolute;
+    z-index: -9;
+    margin: 70px auto 0;
+    left: 0px;
+    right: 0px;
+}
+.iowmone {
+    margin-left: -15px;
+}
+.iowmone h5.cuw {
+    margin-left: 80px;
+}
+.iowmtwo {
+    margin-right: -15px;
+    position: relative;
+}
+.iowmtwo h5.iblwfser {
+    position: absolute;
+    bottom: 20px;
+    margin-left: 122px;
+}
+.iowmone {
+    position: relative;
+}
+.iowmone h5.ooftyb {
+    position: absolute;
+    bottom: 40px;
+    margin-left: 80px;
+}
+.iowmone h5.stmpwsa {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+.iowmone h5.gtasrrd {
+    position: absolute;
+    bottom: 80px;
+    margin-left: 80px;
+}
+.iowmtwo h5.siamc {
+    position: absolute;
+    bottom: 30px;
+    margin-left: 100px;
+}
+.mpmone, .pimpageimgleft, .apbalimgleft {
+    position: relative;
+    margin-left: -15px;
+}
+.mpmtwo, .pimpageimgright, .apbalimgright {
+    position: relative;
+    margin-right: -15px;
+}
+.mpmone h5.dswmpo {
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.mpmtwo h5.ucctc {
+    text-align: center;
+    margin-top: 30px;
+}
+.Pre-Integrat h6.mpmheadtext::before{
+    content: "";
+    background-color: #ccf0ff;
+    height: 40px;
+    width: 518px;
+    position: absolute;
+    z-index: -9;
+    margin: 73px auto 0;
+    left: 0px;
+    right: 0px;
+}
+.mpmone h5.oprpc {
+    position: absolute;
+    bottom: 50px;
+    margin-left: 80px;
+}
+.mpmtwo h5.ddoycw {
+    margin-left: 30px;
+}
+header {box-shadow: 0 0 10px #bbbaba; margin-bottom: 10px; position: sticky; position: -webkit-sticky; top: 0; background: white; z-index:10;}
+.Pre-Integrat h6.pimhdtxt::before {
+    content: "";
+    background-color: #ccf0ff;
+    height: 60px;
+    width: 174px;
+    position: absolute;
+    z-index: -9;
+    margin: 28px auto 0;
+    left: 0px;
+    right: 0px;
+}
+.Pre-Integrat h6.pimhdtxt span {
+    font-size: 25px;
+    font-weight: 500;
+}
+.pimpageimgleft h5.ceicl {
+    position: absolute;
+    bottom: 90px;
+    margin-left: 80px;
+}
+.pimpageimgright h5.ppcp {
+    position: absolute;
+    bottom: 80px;
+    width: 100%;
+    text-align: center;
+}
+.pimpageimgleft h5.svedcm {
+    position: absolute;
+    margin-left: 80px;
+    bottom: 55px;
+}
+.pimpageimgright h5.cceet {
+    margin-left: 44px;
+}
+.pimpageimgleft h5.ibdds {
+    margin-left: 80px;
+}
+.pimpageimgright h5.ffer {
+    margin-left: 50px;
+}
+.Pre-Integrat h6.apbaheadtext::before{
+    content: "";
+    background-color: #ccf0ff;
+    height: 43px;
+    width: 518px;
+    position: absolute;
+    z-index: -9;
+    margin: 73px auto 0;
+    left: 0px;
+    right: 0px;
+}
+.apbalimgleft h5.tiai {
+    margin-left: 80px;
+}
+.apbalimgright h5.aymmop {
+    position: absolute;
+    bottom: 80px;
+    text-align: center;
+    width: 100%;
+}
+.apbalimgleft h5.dibe {
+    position: absolute;
+    bottom: 50px;
+    margin-left: 80px;
+}
+.apbalimgright h5.cilpos {
+    margin-left: 40px;
+}
+ul.apbalpage li, ul.hclpage li, ul.mpmpage li {
+    width: calc(100% / 4);
+}
+ul.efspage li {
+    width: calc(100% / 5);
+}
+ul.pimpages li, ul.pmpages li,{
+    width: calc(100% / 6);
+}

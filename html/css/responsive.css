@@ -1,0 +1,201 @@
+@media (max-width: 768px){
+.order-2 {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: 0;
+    order: 0;
+}
+.Pre-Integrat .textarea {
+    margin-top: 20px;
+}
+footer img.logo {
+    width: auto;
+}
+.inner-section nav {
+    display: none;
+}
+.menu-sec ul li {
+    margin-left: 0;
+}
+.Pre-Integrat h3 {
+    font-size: 25px;
+}
+.Pre-Integrat h3::before {
+    content: "";
+    background-color: #ccf0ff;
+    height: 36px;
+    width: 184px;
+    position: absolute;
+    margin-top: 43px;
+    z-index: -9;
+}
+.Pre-Integrat {
+    margin-top: 25px;
+}
+.Pre-Integrat h3 {
+    padding-bottom: 40px;
+}
+.Pre-Integrat h4 {
+    font-size: 25px;
+    padding-bottom: 0px;
+}
+.Pre-Integrat p {
+    font-size: 13px;
+    line-height: 20px;
+    text-align: justify;
+}
+.Pre-Integrat h5 {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+.Pre-Integrat a {
+    font-size: 16px;
+    padding: 12px 35px;
+    margin-top: 25px;
+    border-radius: 5px;
+}
+.Pre-Integrat h4 span {
+    display: inline;
+}
+.Pre-Integrat .textarea {
+    max-width: 100%;
+}
+.mpmtwo {
+    background-size: auto 73%;
+    background-position: right;
+}
+.Pre-Integrat h6.Elastic::before {
+    height: 41px;
+    width: 340px;;
+    margin-top: 14px;
+}
+.backgrounddurain h5 {
+    margin: 0;
+}
+.Pre-Integrat h6.iowmheadtext::before {
+    width: 292px;
+    margin-top: 21px;
+}
+.mpmthree {
+    background-size: auto 76%;
+}
+.mpmfour {
+    background-position: right;
+}
+.backgroundbulkuploading {
+    background-size: auto 71%;
+}
+.backgroundinformatright {
+    background-size: auto 88%;
+}
+.iowmsix {
+    background-size: auto 79%;
+}
+.iowmthree {
+    background-size: auto 71%;
+}
+.iowmeight {
+    background-position: right;
+}
+.iowmfour {
+    background-position: right;
+}
+.iowmsix {
+    background-position: right;
+}
+.backgroundstreamed {
+    background-position: right;
+}
+footer {
+    padding: 25px;
+    margin-top: 25px;
+    text-align: center;
+}
+.Pre-Integrat h6 {
+    font-size: 25px;
+}
+.Pre-Integrat h6 span {
+    font-size: 17px;
+}
+.Pre-Integrat h6::before {
+    height: 40px;
+    width: 79px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -16px;
+}
+.Pre-Integrat h6 span {
+    padding-bottom: 40px;
+}
+.Pre-Integrat h6.mpmheadtext::before {
+    width: 188px;
+    margin-top: 33px;
+}
+.backgroundclss {
+    min-height: 300px;
+}
+}
+
+@media (min-width: 2400px) and (max-width:4000px ){
+	.menu-sec img {
+    width: 100%;
+}
+.menu-sec ul li a {
+    font-size: 40px;
+}
+.menu-sec {
+    padding: 20px 0;
+}
+.inner-section nav ul li h4 {
+    font-size: 48px;
+}
+.inner-section nav ul li h3 {
+    font-size: 60px;
+}
+.inner-section nav ul li {
+    height: auto;
+    padding: 20px 40px;
+}
+.Pre-Integrat h3 {
+    font-size: 150px;
+    padding-bottom: 250px;
+}
+.Pre-Integrat {
+    margin-top: 250px;
+}
+.Pre-Integrat h4 {
+    font-size: 110px;
+}
+.Pre-Integrat p {
+    font-size: 65px;
+    line-height: unset;
+}
+.Pre-Integrat h5 {
+    font-size: 40px;
+}
+.Pre-Integrat a {
+    font-size: 60px;
+}
+footer p {
+    font-size: 65px;
+    margin-top: 50px;
+}
+.Pre-Integrat h6 {
+    font-size: 150px;
+}
+.Pre-Integrat h6 span {
+    font-size: 65px;
+}
+.Pre-Integrat h6::before {
+    content: "";  background-color: #ccf0ff;
+    height: 179px;
+    width: 323px;
+    position: absolute;
+    margin-top: 101px;
+    z-index: -9;
+    margin-left: -23px;
+}
+.menu-sec ul li {
+    margin-left: 65px;
+}
+}
