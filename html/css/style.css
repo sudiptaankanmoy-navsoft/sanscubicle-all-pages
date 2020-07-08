@@ -30,7 +30,7 @@ body{
 .menu-sec .collapse.navbar-collapse .navbar-nav li {padding:0 14px;}
 .menu-sec .collapse.navbar-collapse .navbar-nav li a {padding:0px; font-family: 'Montserrat', sans-serif;}
 .menu-sec img {
-    width: 35%;
+    width: 60%;
 }
 .menu-sec ul li {
     /*margin-left: 10px;*/
@@ -475,4 +475,74 @@ ul.efspage li {
 }
 ul.pimpages li, ul.pmpages li,{
     width: calc(100% / 6);
+}
+ul.innerlisttext li {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    line-height: 30px;
+    margin-bottom: 15px;
+    list-style-type: none;
+    position: relative;
+    padding-left: 35px;
+}
+ul.innerlisttext li img {
+    position: absolute;
+    width: auto;
+    left: 0;
+    margin-top: 7px;
+}
+ul.popages li {
+    width: calc(100% / 10);
+}
+.Pre-Integrat h3.poheadtext:before {
+    content: "";
+    background-color: #ccf0ff;
+    height: 51px;
+    width: 518px;
+    position: absolute;
+    z-index: -9;
+    margin: 28px auto 0;
+    left: 0px;
+    right: 0px;
+}
+.poimgright{
+    margin-right: -15px
+}
+.poimgleft{
+    margin-left: -15px;
+}
+.poimgleft h5.gmfbybl {
+    margin-left: 80px;
+}
+.poimgright h5.fscbis {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.poimgleft h5.bciuf {
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.poimgright h5.cccab {
+    margin-left: 45px;
+    margin-top: 10px;
+}
+.poimgleft h5.amctwafc, .poimgleft h5.aacmpe {
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.poimgright h5.ocimbt {
+    margin-top: 30px;
+}
+.poimgleft h5.ppcpsa {
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.poimgright h5.fioccs {
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.poimgright h5.ftmwnc {
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
