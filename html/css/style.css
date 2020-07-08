@@ -493,7 +493,7 @@ ul.innerlisttext li img {
     margin-top: 7px;
 }
 ul.popages li {
-    width: calc(100% / 10);
+    width: calc(100% / 5);
 }
 .Pre-Integrat h3.poheadtext:before {
     content: "";
